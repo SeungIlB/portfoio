@@ -14,6 +14,9 @@ public class PortfolioInfo {
     private Long id;
 
     @Column
+    private String category;
+
+    @Column
     private String title;
 
     @Column
